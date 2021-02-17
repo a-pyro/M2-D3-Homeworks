@@ -22,7 +22,7 @@
   /* --fw-reg: 300; */
   /* --fw-bold: 900; */
 
-  --backdrop-color: rgba(255, 255, 255, 0.3);
+  --backdrop-color: rgba(0, 0, 0, 0.474);
 }
 
 html {
@@ -41,6 +41,10 @@ body {
   font-family: var(--ff-primary);
   /* font-size: var(--fs-body); */
   /* line-height: 1.6; */
+}
+
+:root {
+  --backdrop-color: rgba(0, 0, 0, 0.474);
 }
 
 .backdrop-blur {
@@ -65,3 +69,7 @@ body {
 /* .col {
   border: 1px solid black;
 } */
+
+nav {
+  transition: 0.5s;
+}
