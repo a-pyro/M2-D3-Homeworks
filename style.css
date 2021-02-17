@@ -56,3 +56,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.navbar-brand {
+  width: 45px;
+  height: 45px;
+}
